@@ -17,10 +17,10 @@ System for HR department to manage interview schedules for candidates and interv
 ![alt tag](https://github.com/LakshanSS/Interview-Schedule-Management-System/blob/master/images/candidates.png)
 
 ![alt tag](https://github.com/LakshanSS/Interview-Schedule-Management-System/blob/master/images/interviewers.png)
-2.Create Twilio Account and get Account SID and AuthToken.<br>
+<br>2.Create Twilio Account and get Account SID and AuthToken.<br>
 3.add ballerina.config file to the root folder.<br>
 
 ![alt tag](https://github.com/LakshanSS/Interview-Schedule-Management-System/blob/master/images/config.png)
-4.Run the following command in terminal<br>
+<br>4.Run the following command in terminal<br>
 $ ballerina run notification-sender
 
