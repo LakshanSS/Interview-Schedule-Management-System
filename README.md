@@ -12,11 +12,11 @@ System for HR department to manage interview schedules for candidates and interv
 8.When you receive your authorization code, click Exchange authorization code for tokens to obtain the refresh token and access token.<br>
 <h3>Please follow the Steps</h3>
 1.Create a Google Sheet as follows from the same Google account you have obtained the client credentials and tokens to access both APIs.Create 2 sheets as shown in the images.<br>
-![alt text](images/candidates.png)
-![alt text](images/interviewers.png)
+![alt text](https://github.com/LakshanSS/Interview-Schedule-Management-System/blob/master/images/candidates.png)<br>
+![alt text](https://github.com/LakshanSS/Interview-Schedule-Management-System/blob/master/images/interviewers.png)<br>
 2.Create Twilio Account and get Account SID and AuthToken.<br>
 3.add ballerina.config file to the root folder.<br>
-![alt text](images/config.png)<br>
+![alt text](https://github.com/LakshanSS/Interview-Schedule-Management-System/blob/master/images/config.png)<br>
 4.Run the following command in terminal<br>
 $ ballerina run notification-sender
 
