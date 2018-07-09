@@ -1,5 +1,6 @@
 # Interview-Schedule-Management-System
-System for HR department to manage interview schedules
+
+System for HR department to manage interview schedules for candidates and interviewers.
 <h3>Prerequisites</h3>
 1.Visit Google API Console, click Create Project, and follow the wizard to create a new project.<br>
 2.Enable both Gmail and Google Sheets APIs for the project.<br>
