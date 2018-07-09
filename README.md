@@ -18,9 +18,26 @@ System for HR department to manage interview schedules for candidates and interv
 
 ![alt tag](https://github.com/LakshanSS/Interview-Schedule-Management-System/blob/master/images/interviewers.png)
 <br>2.Create Twilio Account and get Account SID and AuthToken.<br>
-3.add ballerina.config file to the root folder.<br>
+3.Add ballerina.config file to the root folder.<br>
 
 ![alt tag](https://github.com/LakshanSS/Interview-Schedule-Management-System/blob/master/images/config.png)
 <br>4.Run the following command in terminal<br>
 $ ballerina run notification-sender
+
+<h3>Problem</h3>
+<p>HR Departments in organizations have to shortlist candidates, schedule interviews with interviewers and send invitation mails to candidates and send the details of candidates and schedule to the interviewers. Sending mails for each candidates and interviewers with relevant details is a difficult task for the HR Managers. </p>
+
+<h3>Solution</h3>
+<p>The HR Manager can put the interview schedule detail in a Google Sheet. 
+The program will be able to
+1. Read data from the google sheet,<br>
+2. Send invitation email to each candidate with relevant data(time, date, location etc. ), <br>
+3. Send email to interviewers with the details of the candidates whom they are going to interview, <br>
+4. Send invitation SMS to candidates using Twilio, <br>
+5. Send notification SMS to interviewers using Twilio.</p>
+
+<h3>Used Saas Services</h3>
+<p>1. Google Sheets<br>
+2. Gmail<br>
+3. Twilio<br></p>
 
