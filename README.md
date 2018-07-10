@@ -29,7 +29,7 @@ $ ballerina run notification-sender
 
 <h3>Solution</h3>
 <p>The HR Manager can put the interview schedule detail in a Google Sheet. 
-The program will be able to
+The program will be able to<br>
 1. Read data from the google sheet,<br>
 2. Send invitation email to each candidate with relevant data(time, date, location etc. ), <br>
 3. Send email to interviewers with the details of the candidates whom they are going to interview, <br>
